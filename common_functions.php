@@ -112,7 +112,7 @@ function getAllMovies()
                 if (isset($_SESSION['username'])) {
                     if ($movie_status == 'Available') {
 
-                        echo "<div class='col-md-2 my-2 px-4'>
+                        echo "<div class='col-md-3 my-2 px-4'>
                     <div class='card';>
                         <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                         <div class='card-body'>
@@ -126,7 +126,7 @@ function getAllMovies()
                     }
                     if ($movie_status == 'Unavailable') {
 
-                        echo "<div class='col-md-2 my-2 px-4'>
+                        echo "<div class='col-md-3 my-2 px-4'>
                     <div class='card';>
                         <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                         <div class='card-body'>
@@ -139,7 +139,7 @@ function getAllMovies()
                     }
                     if ($movie_status == 'Pending') {
 
-                        echo "<div class='col-md-2 my-2 px-4'>
+                        echo "<div class='col-md-3 my-2 px-4'>
                     <div class='card';>
                         <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                         <div class='card-body'>
@@ -152,7 +152,7 @@ function getAllMovies()
                     }
 
                 } else {
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                     <div class='card';>
                         <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                         <div class='card-body'>
@@ -197,7 +197,7 @@ function getMoviesByCategory()
             if (isset($_SESSION['username'])) {
                 if ($movie_status == 'Available') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -211,7 +211,7 @@ function getMoviesByCategory()
                 }
                 if ($movie_status == 'Unavailable') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -224,7 +224,7 @@ function getMoviesByCategory()
                 }
                 if ($movie_status == 'Pending') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -237,7 +237,7 @@ function getMoviesByCategory()
                 }
 
             } else {
-                echo "<div class='col-md-2 my-2 px-4'>
+                echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -279,7 +279,7 @@ function getMoviesByLanguage()
             if (isset($_SESSION['username'])) {
                 if ($movie_status == 'Available') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -293,7 +293,7 @@ function getMoviesByLanguage()
                 }
                 if ($movie_status == 'Unavailable') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -306,7 +306,7 @@ function getMoviesByLanguage()
                 }
                 if ($movie_status == 'Pending') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -319,7 +319,7 @@ function getMoviesByLanguage()
                 }
 
             } else {
-                echo "<div class='col-md-2 my-2 px-4'>
+                echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -392,7 +392,7 @@ function searchMovies()
             if (isset($_SESSION['username'])) {
                 if ($movie_status == 'Available') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -406,7 +406,7 @@ function searchMovies()
                 }
                 if ($movie_status == 'Unavailable') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -419,7 +419,7 @@ function searchMovies()
                 }
                 if ($movie_status == 'Pending') {
 
-                    echo "<div class='col-md-2 my-2 px-4'>
+                    echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>
@@ -432,7 +432,7 @@ function searchMovies()
                 }
 
             } else {
-                echo "<div class='col-md-2 my-2 px-4'>
+                echo "<div class='col-md-3 my-2 px-4'>
                 <div class='card';>
                     <img src='./admin/movie_images/$movie_image1' class='card-img-top' alt='...'>
                     <div class='card-body'>

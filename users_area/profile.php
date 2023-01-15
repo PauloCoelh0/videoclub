@@ -118,7 +118,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,47,185,0.837972689
     <!-- 4rd  -->
 
     <div class="row">
-        <div class="col-md-2 p-2 mt-5">
+        <div class="col-md-3 p-2 mt-5">
             <ul class="navbar-nav  text-center">
                 <li class="nav-item bg- ">
                     <a class="nav-link text-light " href="#">
