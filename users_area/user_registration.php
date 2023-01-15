@@ -35,7 +35,7 @@ include_once('../emailController.php')
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,47,185,0.8379726890756303) 65%, rgba(0,212,255,1) 100%); height: 100% ;
     width: 100%;">
         <div class="mask d-flex align-items-center h-100 gradient-custom-3" style="margin-right: 32 %">
-            <div class="container h-100 p-4">
+            <div class="container h-100 p-4" style="margin-left: 8%">
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-12 col-md-9 col-lg-7 col-xl-6">
                         <div class="card card-register" style="border-radius: 15px; width: 300%;">
