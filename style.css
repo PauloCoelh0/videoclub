@@ -1,0 +1,154 @@
+
+
+.logo{
+    width: 4%;
+    height: 4%;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 400px;
+    /* object-fit:scale-down; */
+
+}
+
+.admin-img{
+    width: 100px;
+    object-fit: contain;
+
+}
+
+.footer{
+    position:absolute;
+    bottom: 0;
+}
+
+.cart_img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.profile_img{
+    width: 90%;
+    height: 100%;
+    margin:auto;
+    display: block;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.product_img{
+    width: 100px;
+    object-fit: contain;
+}
+
+    .fundo{
+        display: flex;
+    }
+
+.card-container{  
+    width: 18rem;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-top: 16px;
+}
+
+.btn.btn-info{
+    color: aliceblue;
+    font-weight: 600;
+    /* background-color: rgb(34, 73, 146); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,47,185,0.8379726890756303) 65%, rgba(0,212,255,1) 100%);
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn.btn-info:hover{
+    /* background-color: rgb(69, 122, 179); */
+    background: rgb(39, 37, 72);
+    background: linear-gradient(90deg, rgba(39, 37, 72) 0%, rgba(92, 92, 165, 0.838) 65%, rgb(174, 225, 235) 100%);
+}
+
+.card-text.text-success{
+    text-align: center;
+}
+
+.card-text.text-danger{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.card-text.text-warning{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.card-text{
+    color: rgb(60, 60, 60);
+    font-weight: 500;
+}
+
+.customContainer{
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,47,185,0.8379726890756303) 65%, rgba(0,212,255,1) 100%);
+}
+
+.insideContainer{
+    padding-top: 10px;
+    margin-top: 40px;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    margin-left: 32.5%;
+    height: 440px;
+}
+
+.card.card-register{
+    height: 100%;
+    width: auto;
+}
+
+.body{
+    height: 999px;
+}
+
+.bg-dark.py-2.px-3.border-0.text-light.customButton1{
+    width: 50%;
+    border-radius: 5px;
+}
+
+.custom{
+    height: 755px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,47,185,0.8379726890756303) 65%, rgba(0,212,255,1) 100%);
+}
+
+.img-fluid{
+    height: 100.1%;
+    margin-left: -2px;
+}
+
+.content{
+    display: flex;
+    margin: 32px auto;
+    padding: 0 16px;
+    max-width: 2500px;
+    flex-direction: column;
+    align-items: center
+  }
+
+
+  .container {
+    margin: auto;
+    display:inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
